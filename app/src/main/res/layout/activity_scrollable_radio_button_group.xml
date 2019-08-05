@@ -1,0 +1,76 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".MainActivity" >
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/daily_weekly_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button_background"
+                    android:button="@android:color/transparent"
+                    android:checked="true"
+                    android:padding="@dimen/relationship_button_padding"
+                    android:layout_margin="@dimen/relationship_button_margin"
+                    android:text="RadioButton1" />
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/relationship_button_padding"
+                    android:layout_margin="@dimen/relationship_button_margin"
+
+                    android:text="RadioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/relationship_button_padding"
+                    android:layout_margin="@dimen/relationship_button_margin"
+
+                    android:text="RadioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/relationship_button_padding"
+                    android:layout_margin="@dimen/relationship_button_margin"
+
+                    android:text="RadioButton1" />
+
+
+
+
+            </RadioGroup>
+        </HorizontalScrollView>
+
+    </LinearLayout>
